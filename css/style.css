@@ -13,7 +13,7 @@ header {
     border-radius: 10px;
     background-color: rgb(7, 116, 212);
     color: white;
-    box-shadow: 0px 16px 32px rgba(0.4, 0.4, 0.4, 0.4);
+    box-shadow: 1px 2px 12px 15px rgba(1, 0.8, 0.8, 0.2);
 }
 
 header img {
@@ -41,9 +41,25 @@ ul li {
 main p {
     font-style: italic;
     color: darkgray;
+    margin-bottom: 8%;
 }
 
 footer{
     border-radius: 10px;
-    background-color: rgb(7, 116, 212);
+    background-color: rgb(7, 116, 212);  
+    box-shadow: 1px 2px 12px 15px rgba(1, 0.8, 0.8, 0.2);
+} 
+
+
+#rights {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin:0px;
+}
+
+#Lastupdate {
+    text-align: center;
+    color: yellow;
+    margin: 0px;
 }
