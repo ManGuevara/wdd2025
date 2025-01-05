@@ -1,0 +1,49 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+    font-family: 'Heebo', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: rgb(7, 116, 212);
+    color: white;
+    box-shadow: 0px 16px 32px rgba(0.4, 0.4, 0.4, 0.4);
+}
+
+header img {
+    margin-right: 20px;
+    border-radius: 20px;
+
+}
+
+header h1 {
+    font-size: 28px;
+    margin-right: 30px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 1);
+}
+
+h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+}
+
+ul li {
+    line-height: 1.8;
+}
+
+main p {
+    font-style: italic;
+    color: darkgray;
+}
+
+footer{
+    border-radius: 10px;
+    background-color: rgb(7, 116, 212);
+}
