@@ -3,3 +3,8 @@ const d = new Date();
 let year = d.getFullYear();
 //console.log(year);
 document.querySelector('#añoactual').innerHTML = year;
+
+//LAST MODIFIED DATE
+const modification =document.lastModified;
+
+document.querySelector('#Lastupdate').innerHTML = modification;
