@@ -7,4 +7,4 @@ document.querySelector('#añoactual').innerHTML = year;
 //LAST MODIFIED DATE
 const modification =document.lastModified;
 
-document.querySelector('#Lastupdate').innerHTML = modification;
+document.querySelector('#Lastupdate').innerHTML = `Last Modified: ${modification}`;

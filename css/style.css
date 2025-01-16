@@ -58,7 +58,7 @@ footer{
     margin:0px;
 }
 
-#Lastupdate {
+#Lastupdate, #visitas   {
     text-align: center;
     color: yellow;
     margin: 0px;
